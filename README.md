@@ -12,21 +12,13 @@ The Typing Speed Test application is a comprehensive tool developed using Python
 ## Technical Features
 Test Generation: The application randomly selects a sentence from a predefined list. The user's goal is to replicate this sentence as quickly and accurately as possible.
 
-### Real-Time Assessment: 
+- Real-Time Assessment: The application begins recording the time as soon as the user starts typing and stops when they finish. The typing speed, computed in Words Per Minute (WPM), is the total number of words typed divided by the elapsed time, then multiplied by 60.
 
-The application begins recording the time as soon as the user starts typing and stops when they finish. The typing speed, computed in Words Per Minute (WPM), is the total number of words typed divided by the elapsed time, then multiplied by 60.
+- Accuracy Calculation: The application computes typing accuracy by comparing the user's typed text with the original sentence. It checks for exact character matches, including punctuation and capitalization.
 
-### Accuracy Calculation: 
+- Leaderboard: A leaderboard system is built into the application. It ranks users based on their WPM and accuracy. This data is managed using SQLite, offering a lightweight, serverless database solution.
 
-The application computes typing accuracy by comparing the user's typed text with the original sentence. It checks for exact character matches, including punctuation and capitalization.
-
-### Leaderboard: 
-
-A leaderboard system is built into the application. It ranks users based on their WPM and accuracy. This data is managed using SQLite, offering a lightweight, serverless database solution.
-
-### Interactive GUI: 
-
-The application's GUI is designed using Tkinter, Python's standard GUI library. It features a clean, minimalistic design that is easy to navigate. The application offers customization options, such as color and font size changes, to enhance user experience.
+- Interactive GUI: The application's GUI is designed using Tkinter, Python's standard GUI library. It features a clean, minimalistic design that is easy to navigate. The application offers customization options, such as color and font size changes, to enhance user experience.
 
 ## Technical Requirements
 ### Python: 
