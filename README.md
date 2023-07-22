@@ -1,8 +1,10 @@
 
-![typing speed test](https://github.com/moscolitos/typing_speed_test_tkinter/assets/51311462/e69bad4b-bac7-4edb-a00b-6ec3684c3cbe)
 
 # Typing Speed Test Tkinter Application
 This application is a typing speed test created using Python and Tkinter. The application allows users to test their typing speed by typing out a randomly selected sentence. It then calculates their speed in Words Per Minute (WPM) and their accuracy. A leaderboard system is also implemented to track top performers.
+
+
+![typing speed test](https://github.com/moscolitos/typing_speed_test_tkinter/assets/51311462/e69bad4b-bac7-4edb-a00b-6ec3684c3cbe)
 
 ## Installation
 Before running this application, ensure you have Python installed on your computer. If not, you can download it from here.
