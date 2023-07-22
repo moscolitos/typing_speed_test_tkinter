@@ -1,7 +1,6 @@
-# typing_speed_test_tkinter
 
 
-# Typing Speed Test Application
+# Typing Speed Test Tkinter Application
 This application is a typing speed test created using Python and Tkinter. The application allows users to test their typing speed by typing out a randomly selected sentence. It then calculates their speed in Words Per Minute (WPM) and their accuracy. A leaderboard system is also implemented to track top performers.
 
 ## Installation
