@@ -33,9 +33,13 @@ The application's GUI is designed using Tkinter, Python's standard GUI library. 
 
 The application is written in Python 3.x. Ensure that Python 3.x is installed on your machine before running the application.
 
-### Tkinter: Tkinter is used for creating the application's GUI. Tkinter comes pre-installed with Python, so you do not need to install it separately.
+### Tkinter: 
 
-### SQLite: SQLite is used for managing the leaderboard data. It comes pre-installed with Python, so no separate installation is required.
+Tkinter is used for creating the application's GUI. Tkinter comes pre-installed with Python, so you do not need to install it separately.
+
+### SQLite: 
+
+SQLite is used for managing the leaderboard data. It comes pre-installed with Python, so no separate installation is required.
 
 ## Running the Application
 To run the application, execute the following command in the terminal in the directory containing the script:
