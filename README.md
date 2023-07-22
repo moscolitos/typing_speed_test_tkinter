@@ -12,20 +12,30 @@ The Typing Speed Test application is a comprehensive tool developed using Python
 ## Technical Features
 Test Generation: The application randomly selects a sentence from a predefined list. The user's goal is to replicate this sentence as quickly and accurately as possible.
 
-### Real-Time Assessment: The application begins recording the time as soon as the user starts typing and stops when they finish. The typing speed, computed in Words Per Minute (WPM), is the total number of words typed divided by the elapsed time, then multiplied by 60.
+### Real-Time Assessment: 
 
-### Accuracy Calculation: The application computes typing accuracy by comparing the user's typed text with the original sentence. It checks for exact character matches, including punctuation and capitalization.
+The application begins recording the time as soon as the user starts typing and stops when they finish. The typing speed, computed in Words Per Minute (WPM), is the total number of words typed divided by the elapsed time, then multiplied by 60.
 
-### Leaderboard: A leaderboard system is built into the application. It ranks users based on their WPM and accuracy. This data is managed using SQLite, offering a lightweight, serverless database solution.
+### Accuracy Calculation: 
 
-### Interactive GUI: The application's GUI is designed using Tkinter, Python's standard GUI library. It features a clean, minimalistic design that is easy to navigate. The application offers customization options, such as color and font size changes, to enhance user experience.
+The application computes typing accuracy by comparing the user's typed text with the original sentence. It checks for exact character matches, including punctuation and capitalization.
+
+### Leaderboard: 
+
+A leaderboard system is built into the application. It ranks users based on their WPM and accuracy. This data is managed using SQLite, offering a lightweight, serverless database solution.
+
+### Interactive GUI: 
+
+The application's GUI is designed using Tkinter, Python's standard GUI library. It features a clean, minimalistic design that is easy to navigate. The application offers customization options, such as color and font size changes, to enhance user experience.
 
 ## Technical Requirements
-Python: The application is written in Python 3.x. Ensure that Python 3.x is installed on your machine before running the application.
+### Python: 
 
-Tkinter: Tkinter is used for creating the application's GUI. Tkinter comes pre-installed with Python, so you do not need to install it separately.
+The application is written in Python 3.x. Ensure that Python 3.x is installed on your machine before running the application.
 
-SQLite: SQLite is used for managing the leaderboard data. It comes pre-installed with Python, so no separate installation is required.
+### Tkinter: Tkinter is used for creating the application's GUI. Tkinter comes pre-installed with Python, so you do not need to install it separately.
+
+### SQLite: SQLite is used for managing the leaderboard data. It comes pre-installed with Python, so no separate installation is required.
 
 ## Running the Application
 To run the application, execute the following command in the terminal in the directory containing the script:
