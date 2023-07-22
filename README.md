@@ -49,11 +49,11 @@ python main.py
 The application will then start, presenting you with a random sentence to type.
 
 ## Key Features
-Test your typing speed in real-time.
-Measures Words per Minute (WPM) and accuracy.
-Leaderboard system to track top performances.
-Reset function to start a new test.
-Presents a randomly selected sentence for each new test.
+- Test your typing speed in real-time.
+- Measures Words per Minute (WPM) and accuracy.
+- Leaderboard system to track top performances.
+- Reset function to start a new test.
+- Presents a randomly selected sentence for each new test.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
