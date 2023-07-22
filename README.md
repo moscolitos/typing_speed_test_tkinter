@@ -10,7 +10,7 @@ Before running this application, ensure you have Python installed on your comput
 The Typing Speed Test application is a comprehensive tool developed using Python 3.x and Tkinter, aimed to assess a user's typing skills. The application comes with a user-friendly GUI that intuitively measures typing speed and accuracy, presenting the results in real-time.
 
 ## Technical Features
-Test Generation: The application randomly selects a sentence from a predefined list. The user's goal is to replicate this sentence as quickly and accurately as possible.
+- Test Generation: The application randomly selects a sentence from a predefined list. The user's goal is to replicate this sentence as quickly and accurately as possible.
 
 - Real-Time Assessment: The application begins recording the time as soon as the user starts typing and stops when they finish. The typing speed, computed in Words Per Minute (WPM), is the total number of words typed divided by the elapsed time, then multiplied by 60.
 
